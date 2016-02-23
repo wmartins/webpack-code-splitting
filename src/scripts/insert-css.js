@@ -1,5 +1,4 @@
-const cache = {
-};
+const cache = {};
 
 module.exports = (path) => {
     if(document && !cache[path]) { // is browser && not inserted yet

@@ -46,7 +46,7 @@ class Home extends React.Component {
                         <h3>2. Splitted JavaScript & CSS</h3>
                         <ol>
                             <li>Click in <Code>About</Code></li>
-                            <li>Check that <Code>2.index.js</Code> and <Code>about.css</Code> were loader</li>
+                            <li>Check that <Code>2.index.js</Code> and <Code>about.css</Code> were loaded</li>
                             <li>Check that font color is now red</li>
                             <li>Click in <Code>Home</Code> again and then click in <Code>About</Code> again</li>
                             <li>Check that nothing else is loaded</li>

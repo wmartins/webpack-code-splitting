@@ -24430,7 +24430,7 @@
 	                                    null,
 	                                    'about.css'
 	                                ),
-	                                ' were loader'
+	                                ' were loaded'
 	                            ),
 	                            _react2.default.createElement(
 	                                'li',

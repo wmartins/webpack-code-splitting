@@ -48,3 +48,13 @@ Of course, it would be a lot better to be able to require dynamic css files
 // I don't work :(
 require.ensure(['./styles.css'], css => {});
 ```
+
+## Cool Things About This Approach
+
+First of all, it works!
+
+But it's also easy to handle common CSS code (just `require` - JS way - that,
+or `import` - CSS + PostCSS way - and we're done). Also, if we don't need
+to extract CSS code, we just `require` the CSS inside the split point and
+we're done, our CSS will be put together with JS code and both JS and CSS
+will be loaded when the split point (`[split-number].js`) is loaded.

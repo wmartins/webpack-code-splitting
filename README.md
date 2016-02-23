@@ -36,6 +36,7 @@ Since our code will be splitted, we can't `require` our CSS anymore
 (except for the [main bundle](https://github.com/wmartins/webpack-code-splitting/blob/52bca3f750f4fe898e8ec1b0ff256bcc24512d92/src/scripts/index.js#L7)),
 otherwise it would be inserted to the main css bundle.
 So, since it will be extracted, we need to add CSS to page manually.
+
 Since we're using React, this simple JS code [here](https://github.com/wmartins/webpack-code-splitting/blob/gh-pages/src/scripts/insert-css.js) was
 created to handle that, and is used [this way](https://github.com/wmartins/webpack-code-splitting/blob/52bca3f750f4fe898e8ec1b0ff256bcc24512d92/src/scripts/routes/about/index.js#L10). I know it's ugly, but I don't see any other way to do
 achieve the desired result.

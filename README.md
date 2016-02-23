@@ -41,10 +41,9 @@ created to handle that, and is used [this way](https://github.com/wmartins/webpa
 achieve the desired result.
 
 Of course, it would be a lot better to be able to require dynamic css files
-(the same way that it's done with JS files), but it doesn't work like that.
-
-This doesn't work as expected:
+(the same way that it's done with JS files), but it doesn't work as expected.
 
 ```javascript
+// I don't work :(
 require.ensure(['./styles.css'], css => {});
 ```

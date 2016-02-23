@@ -21,7 +21,7 @@ class Header extends React.Component {
                             to="news">News</Link>
                         <Link
                             className={linkClasses}
-                            to="about">About</Link>
+                            to="about">About (I will load some CSS)</Link>
                     </nav>
                 </div>
             </div>
